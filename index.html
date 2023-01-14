@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>EAS</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+        <div class="sketchpad">
+            <div class="title">Sketch Board</div>
+            <div class="content">
+                <div class="board"></div>
+                <div class="buttons">
+                    <button>Black</button>
+                    <button>Grey</button>
+                    <button>Random</button>
+                    <button>Erase</button>
+                    <button>Reset</button>
+                </div>
+                <div class="sizeAdjust">
+                    <input type="text" name="sizeAdjsut" value="16" placeholder="Input size" onchange="changeSize(this.value)">
+                    <button type="submit">Submit</button>
+                </div>
+
+            </div>
+        </div>
+
+
+        
+        <script src="./app.js" async defer></script>
+    </body>
+</html>
